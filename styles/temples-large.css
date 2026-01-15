@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header > div {
+    width: auto;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #nav-menu {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-top: 0;
+    gap: 3rem;
+  }
+
+  #nav-menu a {
+    padding: 0 0.5rem;
+  }
+
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
