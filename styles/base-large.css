@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+
+
+    #hamburger {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-top: 0;
+        gap: 3rem;
+    }
+
+    #nav-menu a {
+        padding: 0 0.5rem;
+    }
+
+    nav {
+        padding: 1rem 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

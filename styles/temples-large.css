@@ -29,4 +29,10 @@
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  img {
+  height: auto;
+  width: 100%;
+  max-height: 500px;
+}
 }

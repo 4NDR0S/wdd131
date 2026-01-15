@@ -34,15 +34,45 @@ footer {
 
 nav {
     background: #050505;
-    padding: 1rem 20%;
-    display: flex;
-    justify-content: space-between;
+    padding: 1rem;
 }
 
 nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: #f0f0f0;
+}
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#hamburger {
+  padding: 0 2rem;
+  font-size: xx-large;
+  background-color: #ffffff08;
+  border: none;
+}
+
+#nav-menu {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+  margin-top: 0.5rem;
+}
+
+#nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: .5rem 0;
+}
+
+#nav-menu.open {
+  display: flex;
 }
 
 main {
