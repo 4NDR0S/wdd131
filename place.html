@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="favorite place">
+    <meta name="author" content="Anthony">
+    <title>Favorite Place</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script defer src="scripts/place.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Lima</h1>
+    </header>
+
+    <main>
+
+        <div id="main-content">
+            <section id="img">
+                <!-- Ejemplo de imagen responsiva -->
+                <picture>
+                    <source srcset="images/weasel_small.webp" media="(max-width: 500px)">
+                    <img src="images/weasel_large.webp" alt="weasel">
+                </picture>
+            </section>
+
+
+            <div id="data-w-box">
+                <!-- DATA -->
+                <section id="data">
+                    <div class="title-data">
+                        <h2>Data</h2>
+                    </div>
+                    <ul>
+                        <li><strong>Area: </strong>
+                            <p>1,285,215.6 sq km</p>
+                        </li>
+                        <li><strong>Population: </strong>
+                            <p>34.760.000</p>
+                        </li>
+                        <li><strong>Capital: </strong>
+                            <p>Lima</p>
+                        </li>
+                        <li><strong>Languages: </strong>
+                            <p>Spanish</p>
+                        </li>
+                        <li><strong>Currency: </strong>
+                            <p>South America</p>
+                        </li>
+                        <li><strong>Time Zone: </strong>
+                            <p>UTC -5</p>
+                        </li>
+                        <li><strong>Calling Code: </strong>
+                            <p>+51</p>
+                        </li>
+                        <li><strong>Internet TLD: </strong>
+                            <p>.mg</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <hr>
+                <!-- WEATHER -->
+                <section id="weather">
+                    <div class="title-data">
+                        <h2>Weather</h2>
+                        <p id="weather-icon">🌤️</p>
+                    </div>
+
+                    <ul>
+                        <li><strong>Temperature: </strong><span id="temperature">8</span> °C</li>
+                        <li><strong>Condition: </strong><span id="condition">Cloudy</span></li>
+                        <li><strong>Wind: </strong><span id="wind-speed">10</span> km/h</li>
+                        <li><strong>Wind Chill: </strong><span id="wind-chill">N/A</span></li>
+                    </ul>
+                </section>
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Anthony Vela — Lima, Peru 🦙</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
