@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Explore our perfume collections including summer, sweet, woody, and Arabic fragrances.">
+  <meta name="author" content="Anthony Vela">
+
+  <title>Products | AuraScents</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ===== HEADER & NAV ===== -->
+  <header class="site-header">
+    <div class="logo">
+      <h1>AuraScents</h1>
+      <img src="images/logo-horizontal.png" alt="AuraScents Perfume Store logo">
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#categories">Categories</a></li>
+        <li><a href="index.html#featured">Featured</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="page-hero">
+      <h1>Our Perfume Collection</h1>
+      <p>Discover fragrances for every season and style.</p>
+    </section>
+
+    <!-- Category Filter -->
+    <section class="filter-section">
+      <label for="category">Filter by category:</label>
+      <select id="category">
+        <option value="all">All</option>
+        <option value="summer">Summer</option>
+        <option value="sweet">Sweet</option>
+        <option value="woody">Woody</option>
+        <option value="arabic">Arabic</option>
+        <option value="unisex">Unisex</option>
+        <option value="citrus">Citrus</option>
+        <option value="lavender">Lavender</option>
+        <option value="fruity">Fruity</option>
+      </select>
+    </section>
+
+    <!-- Products Container -->
+    <section id="products-container" class="products-grid">
+      <!-- JS injects products here -->
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <img src="images/logo.png" alt="AuraScents Perfume Store logo">
+    <p>&copy; 2026 AuraScents Perfume Store</p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+
+</body>
+
+</html>
